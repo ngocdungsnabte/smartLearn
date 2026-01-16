@@ -1,0 +1,7 @@
+{
+  "name": "SmartLearn - Tin học 10 (Kết nối tri thức)",
+  "description": "Ứng dụng học tập môn Tin học lớp 10, bộ sách Kết nối tri thức với cuộc sống. Tích hợp bài tập và trợ lý AI Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
