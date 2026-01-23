@@ -5,8 +5,8 @@ export class GeminiService {
   private ai: GoogleGenAI;
 
   constructor() {
-    // Fix: Initializing GoogleGenAI with named parameter and direct process.env.GEMINI_API_KEY usage
-    this.ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    // Fix: Initializing GoogleGenAI with named parameter and direct process.env.API_KEY usage
+    this.ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   }
 
   async askQuestion(question: string, context?: string) {
